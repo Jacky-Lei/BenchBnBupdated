@@ -1,6 +1,8 @@
 (function(root){
   var _benches = [];
 
+  var _newBenches = [];
+
   var resetBenches = function(benches){
     _benches = benches;
   };
